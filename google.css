@@ -125,13 +125,27 @@ section .footer {
 section .footer .row {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px;
 }
 
 .row2 {
   margin-right: 25px;
   color: #5f6386;
+  font-size: 14px;
+}
+.row2 li:hover {
+  text-decoration: underline;
+}
+
+#Footer2 {
+  font: 15px Arial, sans-serif;
+  color: #5f6386;
+  margin-left: 25px;
+}
+
+#ro2 {
+  border-top: none;
 }
 
 section .footer .row ul {
@@ -146,6 +160,10 @@ section .footer .row ul li a {
   font-size: 14px;
   color: #5f6386;
   margin: 25px;
+}
+
+section .footer .row ul li a:hover {
+  text-decoration: underline;
 }
 
 /* Mobile view */
